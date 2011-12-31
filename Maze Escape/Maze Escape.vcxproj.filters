@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="test input">
+      <UniqueIdentifier>{5ac62b16-8148-41ee-8c68-c4d882860fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="documentation">
+      <UniqueIdentifier>{6b1400b0-e2f8-4759-8995-58c05c622c12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.txt">
+      <Filter>test input</Filter>
+    </None>
+    <None Include="2.txt">
+      <Filter>test input</Filter>
+    </None>
+    <None Include="3.txt">
+      <Filter>test input</Filter>
+    </None>
+    <None Include="4.txt">
+      <Filter>test input</Filter>
+    </None>
+    <None Include="description.pdf">
+      <Filter>documentation</Filter>
+    </None>
   </ItemGroup>
 </Project>
