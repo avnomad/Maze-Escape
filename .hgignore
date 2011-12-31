@@ -1,0 +1,9 @@
+syntax: regexp
+Debug/*
+Release/*
+ipch/*
+syntax: glob
+Maze Escape.opensdf
+Maze Escape.sdf
+Maze Escape.suo
+Maze Escape/maze_exit.txt
