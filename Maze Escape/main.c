@@ -40,7 +40,7 @@ int main()
 
 	if(!(maze = calloc(maxrow*maxcol,sizeof(char))))
 	{
-		perror("An error has occured: ");
+		perror("An error has occurred: ");
 	}
 
 	for(col=0;col<maxcol;col++)
